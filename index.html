@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sunnyside</title>
+</head>
+<body>
+  <!-- Start Header -->
+  <header class="header-top">
+   <nav>
+     <img src="/images/logo.svg" alt="">
+     <ul>
+       <li><a href="">About</a></li>
+       <li><a href="">Services</a></li>
+       <li><a href="">Projects</a></li>
+       <li class=""><a href="" class="active">Contact</a></li>
+     </ul>
+     <div class="burge-nav">
+       <span></span>
+       <span></span>
+       <span></span>
+     </div>
+   </nav>
+   <h1>We are creatives</h1>
+   <img src="/images/icon-arrow-down.svg" alt="" class="arrow-down">
+  </header>
+  <!-- End Header -->
+<!-- Start Section -->
+<main class="sec1">
+  <div class="info-sec1">
+    <h1>Transform your <br>brand</h1>
+    <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+    <h4 class="special-heading">LEARN MORE</h4>
+  </div>
+  <img src="/images/desktop/image-transform.jpg" alt="">
+</main>
+<!-- End Section -->
+<!-- Start Section2-->
+<main class="sec1 sec2">
+  <div class="info-sec1 info-sec2">
+    <h1>Stand out to the <br>right audience</h1>
+    <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+    </p>
+    <h4 class="special-heading">LEARN MORE</h4>
+  </div>
+  <img src="/images/desktop/image-stand-out.jpg" alt="">
+</main>
+<!-- End Section2 -->
+<!-- Start Db-images -->
+<div class="db-images">
+  <div class="image1 image">
+    <img src="/images/desktop/image-graphic-design.jpg" alt="">
+    <div class="info-text">
+      <h3>Graphic design</h3>
+      <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention. </p>
+    </div>
+  </div>
+  <div class="image2 image">
+    <img src="/images/desktop/image-photography.jpg" alt="">
+    <div class="info-text">
+      <h3>Photography</h3>
+      <p>
+        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      </p>
+    </div>
+  </div>
+</div>
+<!-- End Db-images -->
+<!-- Start  TETIMONIALS -->
+<div class="testimonials">
+    <h3>CLIENT TETIMONIALS  </h3>
+    <div class="clients">
+      <div class="container">
+        <div class="box">
+          <img src="/images/image-emily.jpg" alt="" srcset="">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit. </p>
+          <h3>Emily R.</h3>
+          <p>Marketing Director </p>
+        </div>
+        <div class="box">
+          <img src="/images/image-thomas.jpg" alt="" srcset="">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h3>thomas R.</h3>
+          <p>Chief Operating Officer
+          </p>
+        </div>
+        <div class="box">
+          <img src="/images/image-jennie.jpg" alt="" srcset="">
+          <p>  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <h3>Jennie R.</h3>
+          <p>Business Owner
+          </p>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- End  TETIMONIALS -->
+<!-- Start Gallery -->
+<div class="gallery">
+  <img src="/images/desktop/image-gallery-milkbottles.jpg" alt="">
+  <img src="/images/desktop/image-gallery-orange.jpg" alt="">
+  <img src="/images/desktop/image-gallery-cone.jpg" alt="">
+  <img src="/images/desktop/image-gallery-sugarcubes.jpg" alt="">
+</div>
+<!-- End Gallery -->
+<!-- Start Footer -->
+<footer>
+  <h1>sunnyside</h1>
+  <ul>
+    <li><a href="">About</a></li>
+    <li><a href="">services</a></li>
+    <li><a href="">Projects</a></li>
+  </ul>
+  <div class="links-social">
+    <a href=""><img src="/images/icon-facebook.svg" alt=""></a>
+    <a href=""><img src="/images/icon-instagram.svg" alt=""></a>
+    <a href=""><img src="/images/icon-pinterest.svg" alt=""></a>
+    <a href=""><img src="/images/icon-twitter.svg" alt=""></a>
+  </div>
+  <p>Created By <span>Youssef Ghafir</span></p>
+</footer>
+<!-- End Footer -->
+<script>
+  let headertop = document.querySelector('.header-top');
+  let burgernav = document.querySelector('.burge-nav');
+  burgernav.addEventListener('click',()=> {
+    headertop.classList.toggle('Show')
+  })
+</script>
+</body>
+</html>
